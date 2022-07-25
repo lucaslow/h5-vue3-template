@@ -17,8 +17,10 @@
 
 <style scoped lang="less">
 	.main-page {
-		height: calc(100vh - 50px);
+		width: 100%;
+		height: 100%;
 		overflow-y: scroll;
 		overflow-x: hidden;
+		background-image: ~'url(@/assets/bg.png)';
 	}
 </style>

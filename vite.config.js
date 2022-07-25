@@ -23,9 +23,9 @@ export default defineConfig({
 	},
 	// css: {
 	// 	preprocessorOptions: {
-	// 		scss: {
-	// 			// 配置 nutui 全局 scss 变量
-	// 			additionalData: '@import "@nutui/nutui/dist/styles/variables.scss";',
+	// 		less: {
+	// 			// 配置 全局 样式
+	// 			additionalData: '@import "@/style/common.less";',
 	// 		},
 	// 	},
 	// },

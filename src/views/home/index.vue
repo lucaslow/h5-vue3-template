@@ -1,7 +1,5 @@
 <template>
-	<div>
-		<van-button type="primary">主要按钮</van-button>
-	</div>
+	<div class="container"></div>
 </template>
 
 <script>
@@ -17,4 +15,9 @@
 	});
 </script>
 
-<style></style>
+<style lang="less" scoped>
+	.container {
+		width: 100%;
+		height: 100%;
+	}
+</style>
